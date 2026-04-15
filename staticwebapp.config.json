@@ -51,6 +51,10 @@
       "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
     },
     {
+      "route": "/.auth/*",
+      "allowedRoles": ["anonymous", "authenticated"]
+    },
+    {
       "route": "*",
       "allowedRoles": ["admin", "editor", "readonly", "authenticated"]
     }
